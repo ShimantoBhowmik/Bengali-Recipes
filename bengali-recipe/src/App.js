@@ -26,6 +26,7 @@ class App extends Component {
   render() {
     return (
     <div className='App'> 
+      <input className='search-box' type='search' placeholder='Search Recipe' onChange={(e) =>{console.log(e.target.value)}}/>
       {
         this.state.dishes.map((dish) => {
           return <div key ={dish.id}>
