@@ -26,7 +26,16 @@ class App extends Component {
   render() {
     return (
     <div className='App'> 
-      <input className='search-box' type='search' placeholder='Search Recipe' onChange={(e) =>{console.log(e.target.value)}}/>
+      <input className='search-box' type='search' placeholder='Search Recipe' onChange={(e) =>{
+        console.log(e.target.value);
+        const searchString = e.target.value.toLowerCase();
+        const filteredDishes = this.state.dishes.filter((dish) => {
+          return dish.name.toLowerCase().includes(searchString);
+        })
+        this.setState(() => {
+          return {dishes : filteredDishes};
+        })
+        }}/>
       {
         this.state.dishes.map((dish) => {
           return <div key ={dish.id}>
