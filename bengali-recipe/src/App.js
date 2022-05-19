@@ -8,7 +8,8 @@ class App extends Component {
     super();
 
     this.state = {
-      dishes: []
+      dishes: [],
+      searchField: ''
     };
   }
 
@@ -24,20 +25,22 @@ class App extends Component {
   }
 
   render() {
+    const filteredDishes = this.state.dishes.filter((dish) => {
+          return dish.name.toLowerCase().includes(this.state.searchField);
+        });
     return (
     <div className='App'> 
-      <input className='search-box' type='search' placeholder='Search Recipe' onChange={(e) =>{
-        console.log(e.target.value);
-        const searchString = e.target.value.toLowerCase();
-        const filteredDishes = this.state.dishes.filter((dish) => {
-          return dish.name.toLowerCase().includes(searchString);
-        })
+      <input className='search-box' 
+      type='search' 
+      placeholder='Search Recipe' 
+      onChange={(e) =>{
+        const searchField = e.target.value.toLowerCase();
         this.setState(() => {
-          return {dishes : filteredDishes};
+          return { searchField };
         })
         }}/>
       {
-        this.state.dishes.map((dish) => {
+        filteredDishes.map((dish) => {
           return <div key ={dish.id}>
             <h1>{dish.name}</h1>
             </div>;
