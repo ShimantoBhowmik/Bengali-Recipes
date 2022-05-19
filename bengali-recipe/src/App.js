@@ -19,10 +19,7 @@ class App extends Component {
     .then((response) => response.json())
     .then((users) => this.setState(() => {
       return {dishes: users}
-    }, 
-    () => {
-      console.log(this.state);
-    } ));
+    }));
   }
 
   onSearchChange =(e) =>{
@@ -45,13 +42,14 @@ class App extends Component {
       type='search' 
       placeholder='Search Recipe' 
       onChange={onSearchChange}/>
-      {
+      {/* {
         filteredDishes.map((dish) => {
           return <div key ={dish.id}>
             <h1>{dish.name}</h1>
             </div>;
         })
-      }
+      } */}
+      <RecipeList dishes = {filteredDishes}/>
     </div>
   );
 }
