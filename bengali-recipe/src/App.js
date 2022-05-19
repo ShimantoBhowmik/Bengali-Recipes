@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import logo from './logo.svg';
+import RecipeList  from './components/recipe-list/recipe-list';
 import './App.css';
 
 class App extends Component {
@@ -24,21 +25,26 @@ class App extends Component {
     } ));
   }
 
+  onSearchChange =(e) =>{
+        const searchField = e.target.value.toLowerCase();
+        this.setState(() => {
+          return { searchField };
+        })
+        } 
+
   render() {
-    const filteredDishes = this.state.dishes.filter((dish) => {
-          return dish.name.toLowerCase().includes(this.state.searchField);
+
+    const {dishes, searchField} = this.state;
+    const {onSearchChange} = this;
+    const filteredDishes = dishes.filter((dish) => {
+          return dish.name.toLowerCase().includes(searchField);
         });
     return (
     <div className='App'> 
       <input className='search-box' 
       type='search' 
       placeholder='Search Recipe' 
-      onChange={(e) =>{
-        const searchField = e.target.value.toLowerCase();
-        this.setState(() => {
-          return { searchField };
-        })
-        }}/>
+      onChange={onSearchChange}/>
       {
         filteredDishes.map((dish) => {
           return <div key ={dish.id}>
