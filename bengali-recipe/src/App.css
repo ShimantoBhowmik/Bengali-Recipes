@@ -12,8 +12,9 @@ body{
   text-align: center;
 }
 .app-title{
-  margin-top: 80 px;
-  margin-bottom: 55 px;
-  font-size: 70 px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 70px;
   color: rgb(182,27,0);
+  font-family: 'Noto Serif Bengali';
 }

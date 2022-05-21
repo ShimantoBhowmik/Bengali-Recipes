@@ -1,1 +1,1 @@
-This is your one-stop website for finding Bengali Recipes
+A website with 12 of the most famous Bengali Recipes with links to those Recipes.

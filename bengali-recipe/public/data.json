@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Chicken Biriyani",
     "username": "Bret",
-    "email": "Sincere@april.biz",
+    "email": "indianhealthyrecipes.com/chicken-biryani-recipe/",
     "address": {
       "street": "Kulas Light",
       "suite": "Apt. 556",
@@ -26,7 +26,7 @@
     "id": 2,
     "name": "Beef Biriyani",
     "username": "Antonette",
-    "email": "Shanna@melissa.tv",
+    "email": "alittlebitofspice.com/beef-biriyani-kerala-style-recipe",
     "address": {
       "street": "Victor Plains",
       "suite": "Suite 879",
@@ -49,7 +49,7 @@
     "id": 3,
     "name": "Mutton Biriyani",
     "username": "Samantha",
-    "email": "Nathan@yesenia.net",
+    "email": "indianhealthyrecipes.com/mutton-biryani/",
     "address": {
       "street": "Douglas Extension",
       "suite": "Suite 847",
@@ -72,7 +72,7 @@
     "id": 4,
     "name": "Chicken Khichuri",
     "username": "Karianne",
-    "email": "Julianne.OConner@kory.org",
+    "email": "kitchenofdebjani.com/2020/11/murgi-khichuri-chicken-khichuri/",
     "address": {
       "street": "Hoeger Mall",
       "suite": "Apt. 692",
@@ -95,7 +95,7 @@
     "id": 5,
     "name": "Beef Khichuri",
     "username": "Kamren",
-    "email": "Lucio_Hettinger@annie.ca",
+    "email": "banglarecipes.com.au/khichuri/",
     "address": {
       "street": "Skiles Walks",
       "suite": "Suite 351",
@@ -118,7 +118,7 @@
     "id": 6,
     "name": "Mutton Khichuri",
     "username": "Leopoldo_Corkery",
-    "email": "Karley_Dach@jasper.info",
+    "email": "cookpad.com/us/recipes/7835843-mangshor-bhuna-khichuri-mutton-khichdi-bengali-style",
     "address": {
       "street": "Norberto Crossing",
       "suite": "Apt. 950",
@@ -141,7 +141,7 @@
     "id": 7,
     "name": "Shorshe Ilish",
     "username": "Elwyn.Skiles",
-    "email": "Telly.Hoeger@billy.biz",
+    "email": "rumkisgoldenspoon.com/shorshe-ilish/",
     "address": {
       "street": "Rex Trail",
       "suite": "Suite 280",
@@ -164,7 +164,7 @@
     "id": 8,
     "name": "Ilish Fry",
     "username": "Maxime_Nienow",
-    "email": "Sherwood@rosamond.me",
+    "email": "cookpad.com/ke/recipes/10284113-ilish-maach-bhaja-hilsa-fish-fry",
     "address": {
       "street": "Ellsworth Summit",
       "suite": "Suite 729",
@@ -185,9 +185,9 @@
   },
   {
     "id": 9,
-    "name": "Rupchanda Fry",
+    "name": "Rupchanda Fish Fry",
     "username": "Delphine",
-    "email": "Chaim_McDermott@dana.io",
+    "email": "withaspin.com/2014/12/18/fried-whole-fish/",
     "address": {
       "street": "Dayna Park",
       "suite": "Suite 449",
@@ -227,6 +227,52 @@
       "name": "Hoeger LLC",
       "catchPhrase": "Centralized empowering task-force",
       "bs": "target end-to-end models"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Chotpoti",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Halim",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
     }
   }
 ]
