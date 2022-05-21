@@ -10,3 +10,5 @@ Special thanks for the ingredients and Recipe-List :
   bongeats.com
   spicechronicles.com
   recipes.timesofindia.com
+
+Note: All images used are Stock images
