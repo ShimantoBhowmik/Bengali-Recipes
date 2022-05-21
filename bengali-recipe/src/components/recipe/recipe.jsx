@@ -15,7 +15,7 @@ class Recipe extends Component{
     <button type = "button "className="recipe-button" onClick={
         (e) => {
             e.preventDefault();
-            window.location.href={email};
+            window.location.href=`www.${email}`;
         }
     }>{email}</button>
     </div>     
