@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import RecipeList  from './components/recipe-list/recipe-list';
 import SearchBox from './components/search-box/search-box';
 import './App.css';
@@ -40,7 +40,7 @@ class App extends Component {
     return (
     <div className='App'> 
       <SearchBox 
-      className = 'search-box'
+      className = 'recipe-search-box'
       onChangeHandler = {onSearchChange} 
       placeholder = 'search recipes' 
       />
