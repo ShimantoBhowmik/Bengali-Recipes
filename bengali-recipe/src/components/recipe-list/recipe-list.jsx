@@ -1,5 +1,6 @@
 import { Component } from "react";
-
+ 
+import Recipe from '../recipe/recipe'
 import './recipe-list.css';
 
 class RecipeList extends Component{
@@ -8,13 +9,8 @@ class RecipeList extends Component{
         return (
         <div className="recipe-list"> 
             {dishes.map(dish =>{
-                const{ name, email, id} = dish;
                 return(
-                <div className= 'recipe-container' key = {id}>
-                    <img alt= {`Recipe ${name}`} src= {`recipe-images/${id}.jpg`} style = {{width: 180,height: 180}}/>
-                    <h2>{name}</h2>
-                    <p>{email}</p>
-                </div>
+                <Recipe dish = {dish}/>
         )} )}
         </div>
         )

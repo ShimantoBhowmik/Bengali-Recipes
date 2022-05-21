@@ -11,3 +11,9 @@ body{
   );
   text-align: center;
 }
+.app-title{
+  margin-top: 80 px;
+  margin-bottom: 55 px;
+  font-size: 70 px;
+  color: rgb(182,27,0);
+}
