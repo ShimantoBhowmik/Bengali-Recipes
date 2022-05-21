@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import logo from './logo.svg';
 import RecipeList  from './components/recipe-list/recipe-list';
+import SearchBox from './components/search-box/search-box';
 import './App.css';
 
 class App extends Component {
@@ -38,17 +39,11 @@ class App extends Component {
         });
     return (
     <div className='App'> 
-      <input className='search-box' 
-      type='search' 
-      placeholder='Search Recipe' 
-      onChange={onSearchChange}/>
-      {/* {
-        filteredDishes.map((dish) => {
-          return <div key ={dish.id}>
-            <h1>{dish.name}</h1>
-            </div>;
-        })
-      } */}
+      <SearchBox 
+      className = 'search-box'
+      onChangeHandler = {onSearchChange} 
+      placeholder = 'search recipes' 
+      />
       <RecipeList dishes = {filteredDishes}/>
     </div>
   );
