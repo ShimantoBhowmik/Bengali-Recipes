@@ -1,4 +1,4 @@
-A website with 12 of the most famous Bengali Recipes with links to those Recipes.
+A website with 12 of the most famous Bengali dishes with Recipe links to those Recipes.
 Special thanks for the ingredients and Recipe-List :
   indianhealthyrecipes.com
   alittlebitofspice.com
